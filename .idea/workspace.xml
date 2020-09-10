@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f63a05c-9213-42e9-8924-5a96c10b8e30" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15/libexec" />
+  <component name="ProjectId" id="1hJNihDw50Cz3jFOh0tiwXZpU9u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/game/main" />
+      <recent name="$PROJECT_DIR$/game" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestGETPlayers in gameServer/main">
+    <configuration name="go build game.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/game.go" />
+      <package value="gameServer" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGETPlayers in gameServer/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gameServer/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGETPlayers\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLeague/it_returns_the_league_table_as_JSON in gameServer/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gameServer/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestLeague\E$/^\Qit_returns_the_league_table_as_JSON\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRecordingWinsAndRetrievingThem in gameServer/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gameServer/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRecordingWinsAndRetrievingThem\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRecordingWinsAndRetrievingThem/get_score in gameServer/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gameServer/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRecordingWinsAndRetrievingThem\E$/^\Qget_score\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestGETPlayers in gameServer/main" />
+        <item itemvalue="Go Test.TestRecordingWinsAndRetrievingThem/get_score in gameServer/main" />
+        <item itemvalue="Go Test.TestRecordingWinsAndRetrievingThem in gameServer/main" />
+        <item itemvalue="Go Test.TestLeague/it_returns_the_league_table_as_JSON in gameServer/main" />
+        <item itemvalue="Go Build.go build game.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599733217230">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="629" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1599733217230" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1599740462366">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599740462366" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1599740462365">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599740462365" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1599740462364">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599740462364" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1599740462366">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599740462366" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1599738731556">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599738731556" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1599738731555">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599738731555" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1599738731555">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599738731555" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1599738731556">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599738731556" />
+    <state x="672" y="321" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1599740254140">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="672" y="321" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599740254140" />
+    <state x="594" y="286" width="604" height="548" key="find.popup" timestamp="1599740204259">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="594" y="286" width="604" height="548" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599740204259" />
+  </component>
+</project>
