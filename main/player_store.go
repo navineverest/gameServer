@@ -1,7 +1,7 @@
 package main
 
 type PlayerStore interface {
-	GetPlayerScore(name string) (int, error)
+	GetPlayerScore(name string) int
 	RecordWin(name string)
-	GetLeaguePlayers() []Player
+	GetLeague() League
 }

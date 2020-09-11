@@ -28,7 +28,7 @@ func NewPlayerServer(store PlayerStore) *PlayerServer {
 
 func (p *PlayerServer) leagueHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("content-type", "application/json")
-	json.NewEncoder(w).Encode(p.store.GetLeaguePlayers())
+	json.NewEncoder(w).Encode(p.store.GetLeague())
 }
 
 func (p *PlayerServer) playersHandler(w http.ResponseWriter, r *http.Request) {
@@ -43,7 +43,7 @@ func (p *PlayerServer) playersHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func (p *PlayerServer) getLeagueTable() []Player {
-	return p.store.GetLeaguePlayers()
+	return p.store.GetLeague()
 }
 
 func (p *PlayerServer) processWin(w http.ResponseWriter, player string) {
@@ -53,7 +53,7 @@ func (p *PlayerServer) processWin(w http.ResponseWriter, player string) {
 }
 
 func (p *PlayerServer) showScore(w http.ResponseWriter, player string) {
-	score, _ := p.store.GetPlayerScore(player)
+	score := p.store.GetPlayerScore(player)
 
 	if score == 0 {
 		w.WriteHeader(http.StatusNotFound)

@@ -6,14 +6,14 @@ type StubPlayerStore struct {
 	league   []Player
 }
 
-func (p *StubPlayerStore) GetPlayerScore(name string) (int, error) {
-	return p.scores[name], nil
+func (p *StubPlayerStore) GetPlayerScore(name string) int {
+	return p.scores[name]
 }
 
 func (p *StubPlayerStore) RecordWin(name string) {
 	p.winCalls = append(p.winCalls, name)
 }
 
-func (p *StubPlayerStore) GetLeaguePlayers() []Player {
+func (p *StubPlayerStore) GetLeague() League {
 	return p.league
 }
