@@ -20,27 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f63a05c-9213-42e9-8924-5a96c10b8e30" name="Default Changelist" comment="Sorting">
-      <change afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker/blind_alerter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker/cli.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker/helper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker/poker_test/cli_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker/poker_test/spy_blinder_alerter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker/testing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/webserver/game.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/file_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/file_store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/file_store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/file_store_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/game.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/game_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/server_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/league.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/league.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/webserver/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/memory_player_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/memory_player_store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/player.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/player.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/player_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/player_store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stub_player_store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tape.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/tape.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tape_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/tape_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/webserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/webserver/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poker/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poker/server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/poker/server_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,69 +51,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/poker" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="GoMoveDeclarationDialog.RECENT_KEY">
       <recent name="$PROJECT_DIR$/main" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/poker" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/webserver" />
       <recent name="$PROJECT_DIR$/poker/poker_test" />
       <recent name="$PROJECT_DIR$/poker" />
-      <recent name="$PROJECT_DIR$/cmd/webserver" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cmd/webserver/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gameServer/cli">
-    <configuration name="go build gameServer/cli" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gameServer/cmd/webserver">
+    <configuration name="go build gameServer/cmd/webserver" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gameServer" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/cli/main.go" />
-      <package value="gameServer/cli" />
+      <filePath value="$PROJECT_DIR$/cmd/webserver/main.go" />
+      <package value="gameServer/cmd/webserver" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCLI in gameServer/poker/poker_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gameServer" />
-      <working_directory value="$PROJECT_DIR$/poker/poker_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="gameServer/poker/poker_test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCLI\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCLI/it_schedules_printing_of_blind_values in gameServer/poker/poker_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gameServer" />
-      <working_directory value="$PROJECT_DIR$/poker/poker_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="gameServer/poker/poker_test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCLI\E$/^\Qit_schedules_printing_of_blind_values\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCLI/it_schedules_printing_of_blind_values#01 in gameServer/poker/poker_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gameServer" />
-      <working_directory value="$PROJECT_DIR$/poker/poker_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="gameServer/poker/poker_test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCLI\E$/^\Qit_schedules_printing_of_blind_values#01\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCLI/record_cleo_win_from_user_input in gameServer/poker" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGETPlayers in gameServer/poker (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gameServer" />
       <working_directory value="$PROJECT_DIR$/poker" />
       <framework value="gotest" />
@@ -136,16 +92,48 @@
       <package value="gameServer/poker" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCLI\E$/^\Qrecord_cleo_win_from_user_input\E$" />
+      <pattern value="^\QTestGETPlayers\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGame/GET_/game_returns_200 in gameServer/poker" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/poker" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gameServer/poker" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGame\E$/^\QGET_\E$/^\Qgame_returns_200\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGame/when_we_get_a_message_over_a_websocket_it_is_a_winner_of_a_game in gameServer/poker" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/poker" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gameServer/poker" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGame\E$/^\Qwhen_we_get_a_message_over_a_websocket_it_is_a_winner_of_a_game\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gameServer" />
+      <working_directory value="$PROJECT_DIR$/poker" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="gameServer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/poker/server_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gameServer/cli" />
-        <item itemvalue="Go Test.TestCLI/it_schedules_printing_of_blind_values#01 in gameServer/poker/poker_test" />
-        <item itemvalue="Go Test.TestCLI/it_schedules_printing_of_blind_values in gameServer/poker/poker_test" />
-        <item itemvalue="Go Test.TestCLI in gameServer/poker/poker_test" />
-        <item itemvalue="Go Test.TestCLI/record_cleo_win_from_user_input in gameServer/poker" />
+        <item itemvalue="Go Build.go build gameServer/cmd/webserver" />
+        <item itemvalue="Go Test.TestGame/when_we_get_a_message_over_a_websocket_it_is_a_winner_of_a_game in gameServer/poker" />
+        <item itemvalue="Go Test.TestGETPlayers in gameServer/poker (1)" />
+        <item itemvalue="Go Test.server_test.go" />
+        <item itemvalue="Go Test.TestGame/GET_/game_returns_200 in gameServer/poker" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Routing and JSON" />
@@ -175,38 +164,38 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="629" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1599809880024" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1599823462771">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1600156528220">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599823462771" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1599823462770">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600156528220" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1600156528219">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599823462770" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1599823462769">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600156528219" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1600156528218">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599823462769" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1599823462770">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600156528218" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1600156528220">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599823462770" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1599811680439">
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600156528219" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1600156298187">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599811680439" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1599811680439">
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600156298187" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1600156298187">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599811680439" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1599811680438">
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600156298187" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1600156298186">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599811680438" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1599811680439">
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600156298186" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1600156298187">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599811680439" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600156298187" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1599740538147">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -233,8 +222,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/poker/server_test.go</url>
-          <line>103</line>
+          <line>106</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/poker/server.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/poker/server.go</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
