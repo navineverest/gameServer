@@ -22,5 +22,4 @@ func (i *InMemoryPlayerStore) GetLeague() League {
 		players = append(players, Player{Name: name, Wins: wins})
 	}
 	return players
-
 }
